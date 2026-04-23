@@ -19,7 +19,8 @@ public class ParenthesesValidator {
             if (ch==')'||ch==']'||ch=='}'){
                 STACK.push(ch);
             } else if (ch=='('||ch=='{'||ch=='[') {
-                return fa
+                if (STACK.isEmpty()){
+                return false;
 
             }
 
