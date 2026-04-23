@@ -22,7 +22,7 @@ public class EmployeeStackSearch {
         }
         Iterator<String>IT=STACK.iterator();
         while (IT.hasNext()){
-            System.out.println(IT.next());
+            System.out.println("ITERATER OUTPUT:"+IT.next());
 
         }
 
