@@ -7,6 +7,7 @@ public class ParenthesesValidator {
         parentheses.push("()");
         parentheses.push("[]()");
         parentheses.push("{}");
+        parentheses.push("//");
 
 
     }
