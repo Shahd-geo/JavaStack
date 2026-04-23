@@ -9,6 +9,8 @@ public class EmployeeStackDemo {
         STACK.push("LEAVE");
         STACK.push("WORK");
         System.out.println(STACK);
+        STACK.push("MEET");
+
 
 
     }
