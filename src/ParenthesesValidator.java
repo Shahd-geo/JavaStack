@@ -25,7 +25,9 @@ public class ParenthesesValidator {
 
                 }
                 char top =STACK.pop();
-                if (ch==')'&&top!='(')||(ch==']'&&top=='[')
+                if ((ch==')'&&top!='(')||(ch==']'&&top!='[')||(ch=='}'&&top!='{')){
+                    return false;
+                }
 
             }
         }
