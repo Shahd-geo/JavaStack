@@ -10,8 +10,7 @@ public class EmployeeStackSearch {
         STACK.push("WORK");
         STACK.push("MEET");
         System.out.println(STACK);
-        STACK.search("WORK");
-
+        System.out.println(STACK.search("WORK"));
 
 
     }
