@@ -14,5 +14,7 @@ public class ParenthesesValidator {
     }
     public static Boolean  isBalanced(String str){
         Stack<Character> STACK=new Stack<>();
+        for (int i = 0 ; i < str.length();i++){
 
+        }
     }}
