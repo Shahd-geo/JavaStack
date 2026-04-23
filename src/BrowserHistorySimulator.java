@@ -15,6 +15,7 @@ public class BrowserHistorySimulator {
         System.out.println("top elements peack :"  +URL.peek());
         System.out.println(URL.isEmpty());
         URL.clear();
+        System.out.println(URL.isEmpty());
 
 
 
