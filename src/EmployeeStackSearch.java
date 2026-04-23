@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.Stack;
 
 public class EmployeeStackSearch {
@@ -19,6 +20,7 @@ public class EmployeeStackSearch {
         for (String EMPLOYYE :STACK){
             System.out.println(EMPLOYYE);
         }
+        Iterator<String>IT=STACK.iterator();
 
 
 
