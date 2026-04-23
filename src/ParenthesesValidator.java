@@ -31,6 +31,6 @@ public class ParenthesesValidator {
 
             }
         }
-        return true;
+        return Stack;
     }
 }
