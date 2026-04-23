@@ -8,7 +8,7 @@ public class EmployeeStackDemo {
         STACK.push("ENTER");
         STACK.push("LEAVE");
         STACK.push("WORK");
-
+        System.out.println(STACK);
 
 
     }
