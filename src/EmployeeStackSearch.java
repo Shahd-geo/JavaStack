@@ -13,6 +13,7 @@ public class EmployeeStackSearch {
         System.out.println(STACK.search("WORK"));
         System.out.println(STACK.contains("MEET"));
         for (String EMPLOYYE :STACK){
+            System.out.println(EMPLOYYE);
         }
 
 
