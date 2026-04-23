@@ -9,6 +9,7 @@ public class EmployeeStackSearch {
         STACK.push("LEAVE");
         STACK.push("WORK");
         STACK.push("MEET");
+        System.out.println(STACK);
 
     }
 }
