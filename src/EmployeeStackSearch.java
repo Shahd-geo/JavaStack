@@ -13,12 +13,13 @@ public class EmployeeStackSearch {
         System.out.println(STACK.search("WORK"));
         System.out.println(STACK.contains("MEET"));
         for (int i = STACK.size()-1 ; i >=0 ; i--){
+            System.out.println(STACK.get(i));
 
         }
         for (String EMPLOYYE :STACK){
             System.out.println(EMPLOYYE);
         }
-        f
+
 
 
     }
