@@ -5,6 +5,8 @@ public class StringReversalAndPalindrome {
         Stack<String>STACK=new Stack<>();
         STACK.push("add");
         STACK.push("hello");
+        STACK.push("mam");
+        //STACK.push("add");
 
     }
     public static String oreverseString(String str){
