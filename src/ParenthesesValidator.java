@@ -13,5 +13,6 @@ public class ParenthesesValidator {
 
     }
     public static Boolean  isBalanced(String str){
+        Stack<Character> STACK=new Stack<>();
 
     }}
