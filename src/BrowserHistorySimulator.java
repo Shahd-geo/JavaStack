@@ -17,6 +17,8 @@ public class BrowserHistorySimulator {
         URL.clear();
         System.out.println(URL.isEmpty());
         URL.push("https://www.amazon.ae/?&linkCode=ll2&tag=enae-edge-ntp-topsites-curate-ana-21&linkId=14e64b9e650b70d14e2bcd88c13a0c3a&language=en_AE&ref_=as_li_ss_tl");
+        URL.push("https://www.booking.com/");
+
 
 
 
