@@ -8,6 +8,7 @@ public class EmployeeStackSearch {
         STACK.push("ENTER");
         STACK.push("LEAVE");
         STACK.push("WORK");
+        STACK.push("MEET");
 
     }
 }
