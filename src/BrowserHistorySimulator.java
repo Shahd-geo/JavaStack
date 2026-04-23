@@ -12,6 +12,7 @@ public class BrowserHistorySimulator {
         String removed=URL.pop();
         System.out.println("POPED ELEMENTS :"+removed);
         System.out.println("ASTCK AFTER POP :"+URL);
+        System.out.println("top elements peack :"  +URL.peek());
 
 
 
