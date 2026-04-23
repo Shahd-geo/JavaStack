@@ -11,6 +11,7 @@ public class BrowserHistorySimulator {
         System.out.println(URL);
         String removed=URL.pop();
         System.out.println("POPED ELEMENTS :"+removed);
+        System.out.println("ASTCK AFTER POP :"+URL);
 
 
 
