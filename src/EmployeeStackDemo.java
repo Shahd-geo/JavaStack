@@ -5,7 +5,7 @@ public class EmployeeStackDemo {
         Stack<String>STACK=new Stack<>();
         STACK.push("READ");
         STACK.push("WRITE");
-        STACK
+        STACK.push("ENTER");
 
 
 
