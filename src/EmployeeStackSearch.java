@@ -11,6 +11,7 @@ public class EmployeeStackSearch {
         STACK.push("MEET");
         System.out.println(STACK);
         System.out.println(STACK.search("WORK"));
+        STACK.contains("MEET")
 
 
     }
