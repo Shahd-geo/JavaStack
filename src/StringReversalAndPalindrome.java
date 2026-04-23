@@ -9,11 +9,11 @@ public class StringReversalAndPalindrome {
         STACK.push("java");
         STACK.push("racecar");
         STACK.push("a");
+        System.out.println("orginal str :"+STACK);
 
     }
-    public static String oreverseString(String str){
 
 
 
-    }
+
 }
