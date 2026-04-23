@@ -6,6 +6,7 @@ public class EmployeeStackDemo {
         STACK.push("READ");
         STACK.push("WRITE");
         STACK.push("ENTER");
+        STACK.push("LEAVE");
 
 
 
