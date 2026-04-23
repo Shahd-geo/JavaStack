@@ -18,6 +18,9 @@ public class ParenthesesValidator {
             char ch =str.charAt(i);
             if (ch==')'||ch==']'||ch=='}'){
                 STACK.push(ch);
+            } else if (ch=='('||ch=='{'||ch=='[') {
+                return fa
+
             }
 
         }
