@@ -10,6 +10,10 @@ public class EmployeeStackDemo {
         STACK.push("WORK");
         System.out.println(STACK);
         STACK.push("MEET");
+        System.out.println(STACK);
+
+
+
 
 
 
