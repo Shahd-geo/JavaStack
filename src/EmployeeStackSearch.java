@@ -21,6 +21,9 @@ public class EmployeeStackSearch {
             System.out.println(EMPLOYYE);
         }
         Iterator<String>IT=STACK.iterator();
+        while (IT.hasNext()){
+
+        }
 
 
 
