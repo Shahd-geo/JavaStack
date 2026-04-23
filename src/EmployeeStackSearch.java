@@ -14,11 +14,11 @@ public class EmployeeStackSearch {
         System.out.println(STACK.search("WORK"));
         System.out.println(STACK.contains("MEET"));
         for (int i = STACK.size()-1 ; i >=0 ; i--){
-            System.out.println("FROM BOTTOM TO TOP:"+STACK.get(i));
+            System.out.println("FROM TOP TO BOTTOM:"+STACK.get(i));
 
         }
         for (String EMPLOYYE :STACK){
-            System.out.println(EMPLOYYE);
+            System.out.println("FROM BOTTOM TO TOP:"+EMPLOYYE);
         }
         Iterator<String>IT=STACK.iterator();
         while (IT.hasNext()){
