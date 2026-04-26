@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class StringReversalAndPalindrome {
     static void main(String[] args) {
-        Stack<String>STACK=new Stack<>();
+        Stack<Character>STACK=new Stack<>();
         STACK.push("add");
         STACK.push("hello");
         STACK.push("mam");
@@ -10,7 +10,16 @@ public class StringReversalAndPalindrome {
         STACK.push("racecar");
         STACK.push("a");
         System.out.println("orginal str :"+STACK);
-        Stack<Character> chr=new Stack<>();
+
+    }
+
+    public static String reverseString(String str){
+        Stack<Character>STACK=new Stack<>();
+        for (int i = 0 ; i <str.length(); i++){
+            STACK.push(str.charAt(i));
+
+
+    }
 
     }
 
