@@ -10,6 +10,7 @@ public class StringReversalAndPalindrome {
         STACK.push("racecar");
         STACK.push("a");
         System.out.println("orginal str :"+STACK);
+        Stack<Character> chr=new Stack<>();
 
     }
 
