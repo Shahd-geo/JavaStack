@@ -9,6 +9,8 @@ public static String  DecimalToBinaryConverter (int n){
         n=n/2;
     }
     String BINARY = "";
-    while (!)
+    while (!STACK.isEmpty()){
+        BINARY+=STACK.pop()
+    }
 
 }
