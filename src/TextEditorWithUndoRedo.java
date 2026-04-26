@@ -10,6 +10,7 @@ public class TextEditorWithUndoRedo {
     System.out.println(text);
     undo.push(text);
     text = text + " World";
+    System.out.println(text);
 
 
 
