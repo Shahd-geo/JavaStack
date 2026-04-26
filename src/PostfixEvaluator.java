@@ -14,6 +14,8 @@ public class PostfixEvaluator {
                 int b = stack.pop();
                 int result=0;
                 if (ch=='+') result=a+b;
+                if (ch=='-') result=a-b;
+
 
             }
 
