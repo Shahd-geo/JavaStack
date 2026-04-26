@@ -18,13 +18,10 @@ public class StringReversalAndPalindrome {
         for (int i = 0 ; i <str.length(); i++){
             STACK.push(str.charAt(i));
             String REVERSED= "";
-
-
+            while (!STACK.isEmpty()){
+                    REVERSED+=STACK.pop() ;
+            }
+        }
+        return REVERSED;
     }
-
-    }
-
-
-
-
-}
+    public static boolean
