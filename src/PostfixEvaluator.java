@@ -9,6 +9,11 @@ public class PostfixEvaluator {
             char ch = STR.charAt(i);
             if (Character.isDigit(ch)){
                 stack.push(ch-'0');
+            } else if (ch=='+'||ch=='-' ||ch=='*') {
+                int a = stack.pop();
+                int b = stack.pop();
+                int result=0;
+
             }
 
         }
