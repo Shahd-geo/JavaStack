@@ -14,6 +14,9 @@ public class TextEditorWithUndoRedo {
     //und
         if (!undo.isEmpty()) {
             redo.push(text);
+            text = undo.pop();
+
+
         }
 
 
