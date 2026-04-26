@@ -29,5 +29,7 @@ public class BrowserNavigationSystem {
             back.remove(0);
 
         }
+        if (!PAGE.isEmpty()) {
+            back.push(currentPage);
     }
 }
