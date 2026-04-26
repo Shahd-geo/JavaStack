@@ -7,6 +7,7 @@ public class TextEditorWithUndoRedo {
     String text="";
     undo.push(text);
     text=text+"Hello";
+    System.out.println(text);
 
 
 
