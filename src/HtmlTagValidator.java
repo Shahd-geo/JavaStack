@@ -9,6 +9,8 @@ public static boolean validateHtmlTags(String html){
         for (int i =0; i<str.length();i++){
             if (html.charAt(i) == '<') {
                 int j = html.indexOf('>', i);
+                String tag = html.substring(i + 1, j);
+
 
             }
         }
