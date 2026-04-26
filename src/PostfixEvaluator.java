@@ -7,6 +7,9 @@ public class PostfixEvaluator {
         Stack<Integer> stack=new Stack<>();
         for (int i = 0 ; i<STR.length();i++){
             char ch = STR.charAt(i);
+            if (Character.isDigit(ch)){
+                stack.push(ch-'0');
+            }
 
         }
     }
