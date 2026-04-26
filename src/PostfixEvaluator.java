@@ -4,6 +4,6 @@ public class PostfixEvaluator {
 
     }
     public static int PostfixEvaluator(String STR){
-
+        Stack<Integer> stack=new Stack<>();
     }
 }
