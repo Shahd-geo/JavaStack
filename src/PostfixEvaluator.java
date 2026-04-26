@@ -1,15 +1,17 @@
-import java.util.Stack
+import java.util.Stack;
 public class PostfixEvaluator {
     static void main(String[] args) {
         String[] STR={"32+","69*","48-"};
-        for (String NUMS:STR){
+        for (String S:STR){
             System.out.println("expersion :"+STR);
+            System.out.println("RESULT :" + PostfixEva(STR));
+
 
 
         }
 
     }
-    public static int PostfixEvaluator(String STR){
+    public static int PostfixEva(String STR){
         Stack<Integer> stack=new Stack<>();
         for (int i = 0 ; i<STR.length();i++){
             char ch = STR.charAt(i);
