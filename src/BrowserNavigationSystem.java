@@ -32,4 +32,5 @@ public class BrowserNavigationSystem {
         if (!PAGE.isEmpty()) {
             back.push(currentPage);
     }
+        forwared.clear();
 }
