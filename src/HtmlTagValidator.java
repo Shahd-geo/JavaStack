@@ -1,9 +1,9 @@
 import java.util.Stack;
 
 public class HtmlTagValidator {
-    static void main(String[] args) {
-        System.out.println(validateHtmlTags("<div><p></p></div>"));
-            }
+//    static void main(String[] args) {
+//        System.out.println(validateHtmlTags("<div><p></p></div>"));
+//            }
 
             public static boolean validateHtmlTags(String html) {
 
