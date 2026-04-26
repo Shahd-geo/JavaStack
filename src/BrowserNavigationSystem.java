@@ -1,11 +1,12 @@
 import java.util.Stack;
 
 public class BrowserNavigationSystem {
-    Stack<String>back=new Stack<>();
-    Stack<String>forwared=new Stack<>();
-    String PAGE = "";
-    int max = 10;
+
     public static void main(String[] args) {
+        Stack<String>back=new Stack<>();
+        Stack<String>forwared=new Stack<>();
+        String PAGE = "";
+        int max = 10;
         visitPage("linkedIn.com");
         visitPage("gitHub.com");
         visitPage("zoom.com");
@@ -23,6 +24,10 @@ public class BrowserNavigationSystem {
 
     }
     static void visitPage(String url) {
+        if (back.size() >= max) {
+            System.out.println("History limit reached ");
+            back.remove(0);
 
+        }
     }
 }
