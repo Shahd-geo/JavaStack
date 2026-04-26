@@ -13,6 +13,7 @@ public class PostfixEvaluator {
                 int a = stack.pop();
                 int b = stack.pop();
                 int result=0;
+                if (ch=='+') result=a+b;
 
             }
 
