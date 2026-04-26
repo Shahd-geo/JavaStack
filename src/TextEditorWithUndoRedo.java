@@ -11,6 +11,11 @@ public class TextEditorWithUndoRedo {
     undo.push(text);
     text = text + " World";
     System.out.println(text);
+    //und
+        if (!undo.isEmpty()) {
+            redo.push(text);
+        }
+
 
 
 
