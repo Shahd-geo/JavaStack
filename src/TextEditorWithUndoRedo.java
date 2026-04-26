@@ -9,6 +9,9 @@ public class TextEditorWithUndoRedo {
     text=text+"Hello";
     System.out.println(text);
     undo.push(text);
+    text = text + " World";
+
+
 
 
 
