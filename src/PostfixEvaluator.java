@@ -15,6 +15,8 @@ public class PostfixEvaluator {
                 int result=0;
                 if (ch=='+') result=a+b;
                 if (ch=='-') result=a-b;
+                if (ch=='*') result=a*b;
+
 
 
             }
