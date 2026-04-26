@@ -1,4 +1,10 @@
 public class DecimalToBinaryConverter {
+    static void main(String[] args) {
+        int [] num={5,10,13,7,1,8};
+        for (int n :num){
+            System.out.println("decimal");
+        }
+    }
 
 }
 public static String  DecimalToBinaryConverter (int n){
@@ -10,7 +16,8 @@ public static String  DecimalToBinaryConverter (int n){
     }
     String BINARY = "";
     while (!STACK.isEmpty()){
-        BINARY+=STACK.pop()
+        BINARY+=STACK.pop();
     }
+    return BINARY;
 
 }
