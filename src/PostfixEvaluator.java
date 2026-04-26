@@ -5,5 +5,9 @@ public class PostfixEvaluator {
     }
     public static int PostfixEvaluator(String STR){
         Stack<Integer> stack=new Stack<>();
+        for (int i = 0 ; i<STR.length();i++){
+            char ch = STR.charAt(i);
+
+        }
     }
 }
