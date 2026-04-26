@@ -23,5 +23,6 @@ public class PostfixEvaluator {
             }
 
         }
+        return stack.pop();
     }
 }
