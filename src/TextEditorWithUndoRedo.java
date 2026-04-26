@@ -5,10 +5,14 @@ public class TextEditorWithUndoRedo {
     Stack<String>undo=new Stack<>();
     Stack<String>redo=new Stack<>();
     String text="";
+    undo.push(text);
+    text=text+"Hello";
 
 
 
 
 
-}
+
+
+    }
 public static
