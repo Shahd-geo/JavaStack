@@ -3,6 +3,8 @@ public class PostfixEvaluator {
     static void main(String[] args) {
         String[] STR={"32+","69*","48-"};
         for (String NUMS:STR){
+            System.out.println("expersion :"+STR);
+
 
         }
 
