@@ -8,6 +8,8 @@ public class TextEditorWithUndoRedo {
     undo.push(text);
     text=text+"Hello";
     System.out.println(text);
+    undo.push(text);
+
 
 
 
