@@ -22,11 +22,14 @@ public static int[] findNextGreaterElement(int [] arr){
     return result;
 
     }
-    public static void displayresult(int[] arr, int[] result){
+    public static void displayresult(int[] arr, int[] result) {
         System.out.println("Index\tValue\tNext Greater");
+        for (int i = 0; i < arr.length; i++) {
 
 
+            System.out.println(i + "\t" + arr[i] + "\t" + result[i]);
 
 
+        }
     }
 }
