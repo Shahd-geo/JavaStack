@@ -5,6 +5,7 @@ public class StackSorter {
         Stack<Integer> temp = new Stack<>();
         while (!stack.isEmpty()) {
             int current = stack.pop();
+            while (!temp.isEmpty() && temp.peek() > current) {
 
         }
 
