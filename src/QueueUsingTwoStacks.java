@@ -7,6 +7,7 @@ public class QueueUsingTwoStacks {
 public static int Enqueue(int x) {
     s1.push(x);
     System.out.println("Enqueue: " + x);
+    return x;
 }
 public static int dequeue() {
     if (s1.isEmpty() && s2.isEmpty()) {
@@ -53,7 +54,7 @@ public static int dequeue() {
        dequeue();
         dequeue();
        dequeue();
-       // dequeue(); // empty case
+        dequeue(); // empty case
     }
 }
 
@@ -66,8 +67,3 @@ public static int dequeue() {
 
 
 
-
-    }
-
-
-}
