@@ -4,6 +4,11 @@ public class InfixExpressionEvaluator {
     static Stack<Double>  operand = new Stack<>();
     static Stack<Character>  operator = new Stack<>();
     public static int precedence(char op) {
+        if (op == '+' || op == '-'){
+            return 1;
+        }
+
+    }
 
 
 
