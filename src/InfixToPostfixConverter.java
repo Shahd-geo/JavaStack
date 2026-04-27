@@ -41,8 +41,13 @@ public class InfixToPostfixConverter {
 
                return out.toString();
            }
+           return out.toString();
 
        }
+       public static Integer evaluatePostfix(String postfix) {
+
+
+           }
 
 
 
