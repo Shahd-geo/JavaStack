@@ -2,13 +2,15 @@ import java.util.Stack;
 public class MinStack {
     static Stack<Integer> mainStack = new Stack<>();
     static Stack<Integer> minStack = new Stack<>();
+
     public static Integer push(int x) {
         mainStack.push(x);
 
         if (minStack.isEmpty() || x <= minStack.peek()) {
             minStack.push(x);
         }
-        System.out.println("PUSH:"+x);
+        System.out.println("PUSH:" + x);
+        return x;
     }
     public static int pop(){
        if (mainStack.isEmpty()) {
@@ -44,19 +46,19 @@ public class MinStack {
     }
 
     static void main(String[] args) {
-        push(5);
-
-        push(3);
-
-        push(7);
-
-        push(2);
-        pop();
-        pop();
-        push(1);
-        push(4);
-        pop();
-
+        System.out.println( push(5));
+        System.out.println( push(3));
+        System.out.println( push(7));
+        System.out.println( push(2));
+        System.out.println( pop());
+        System.out.println( pop());
+        System.out.println( pop());
+        System.out.println( pop());
+        System.out.println( push(1));
+        System.out.println( push(4));
+        System.out.println( pop());
+        System.out.println( pop());
+        System.out.println( pop());
 
 
     }
@@ -67,5 +69,4 @@ public class MinStack {
 
 
 
-    }
 
