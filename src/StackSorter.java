@@ -11,6 +11,10 @@ public class StackSorter {
 
             temp.push(current);
         }
+        while (!temp.isEmpty()) {
+            stack.push(temp.pop());
+        }
+    }
 
     }
 
