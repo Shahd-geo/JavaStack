@@ -7,6 +7,8 @@ public class InfixToPostfixConverter {
     }
     public static Integer precedence(char op){
         Stack<Character> ops = new Stack<>();
+        StringBuilder output = new StringBuilder();
+
 
     }
 }
