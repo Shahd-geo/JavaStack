@@ -24,11 +24,14 @@ public class InfixToPostfixConverter {
                if (Character.isDigit(ch)) {
                    out.append(ch).append(" ");
                }
+               else if (ch == '(') {
+                   ops.push(ch);
 
 
 
 
-       }
+
+               }
 
 
         }
