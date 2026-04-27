@@ -3,24 +3,24 @@ import java.util.Stack;
 public class InfixExpressionEvaluator {
     static void main(String[] args) {
         String expr = "3+4*2";
+        int result = evaluate(expr);
 
 
 
+    }
 
-
-
-
-}
     public static int precedence(char op) {
-        if (op == '+' || op == '-'){
+        if (op == '+' || op == '-') {
             return 1;
-        }if (op == '*' || op == '/') {
+        }
+        if (op == '*' || op == '/') {
             return 2;
         }
         return 0;
 
 
     }
+
     public static int applyOp(int a, int b, char op) {
         if (op == '+') {
             return a + b;
@@ -36,6 +36,7 @@ public class InfixExpressionEvaluator {
         }
         return 0;
     }
+
     public static int evaluate(String expr) {
         Stack<Integer> operand = new Stack<>();
         Stack<Character> operator = new Stack<>();
@@ -61,3 +62,4 @@ public class InfixExpressionEvaluator {
 
         }
     }
+}
