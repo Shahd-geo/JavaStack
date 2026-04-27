@@ -5,6 +5,7 @@ public class InfixToPostfixConverter {
         String infix = "3+4*2";
         String postfix = infixToPostfix(infix);
         System.out.println("Postfix: " + postfix);
+        int result = evaluatePostfix(postfix);
 
 
 
