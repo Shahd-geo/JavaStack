@@ -7,12 +7,13 @@ public class StackSorter {
         s.push(1);
         s.push(4);
         s.push(2);
-        System.out.println("orginal stack:"+s);
+        System.out.println("orginal stack:" + s);
+        System.out.println(sortStack(s));
 
 
+    }
 
-}
-    public static void sortStack(Stack<Integer> stack) {
+    public  static  sortStack(Stack<Integer> stack) {
         Stack<Integer> temp = new Stack<>();
         while (!stack.isEmpty()) {
             int current = stack.pop();
@@ -26,3 +27,9 @@ public class StackSorter {
             stack.push(temp.pop());
         }
     }
+
+    public static void displayStack(Stack<Integer> stack, String name) {
+        System.out.println(name + ": " + stack);
+    }
+
+}
