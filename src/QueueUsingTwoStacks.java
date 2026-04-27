@@ -24,6 +24,20 @@ public static int dequeue() {
     return ret;
 }
     public static int peek() {
+        if (s1.isEmpty() && s2.isEmpty()) {
+            System.out.println("Queue is empty");
+            return -1;
+        }
+
+        if (s2.isEmpty()) {
+            while (!s1.isEmpty()) {
+                s2.push(s1.pop());
+            }
+        }
+
+        return s2.peek();
+    }
+
 
 
 
