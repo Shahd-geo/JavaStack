@@ -17,7 +17,7 @@ public class InfixExpressionEvaluator {
         if (op == '+') {
             return a + b;
         }
-        if (op == '-'){
+        if (op == '-') {
             return a - b;
         }
         if (op == '*') {
@@ -26,6 +26,10 @@ public class InfixExpressionEvaluator {
         if (op == '/') {
             return a / b;
         }
+        return 0;
+    }
+    public static int evaluate(String expr) {
+
 
 
 
