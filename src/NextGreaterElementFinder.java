@@ -13,6 +13,7 @@ public static int[] findNextGreaterElement(int [] arr){
     Stack<Integer> STACK=new Stack<>();
     for (int i = 0 ; i<n;i++){
         while (!STACK.isEmpty() && arr[STACK.peek()]<arr[i]] {
+                int index=STACK.pop();
 
         }
 
