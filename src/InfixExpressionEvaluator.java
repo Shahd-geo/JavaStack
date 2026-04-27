@@ -34,9 +34,11 @@ public class InfixExpressionEvaluator {
             if (ch == ' ') {
                 continue;
             }
+            if (Character.isDigit(ch)) {
 
 
-        }
+
+            }
 
 
 
