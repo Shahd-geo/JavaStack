@@ -47,7 +47,7 @@ public class InfixExpressionEvaluator {
                     int a = operand.pop();
                     operand.push(applyOp(a, b, operator.pop()));
                 }
-                re
+                return operand.pop();
                 }
 
                 }
