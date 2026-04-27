@@ -51,6 +51,8 @@ public class MinStack {
         push(7);
 
         push(2);
+        pop();
+        pop();
 
 
     }
