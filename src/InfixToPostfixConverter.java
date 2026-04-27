@@ -32,6 +32,13 @@ public class InfixToPostfixConverter {
                    while (!ops.isEmpty() && ops.peek() != '(') {
                        out.append(ops.pop()).append(" ");
                    }
+               }else { // operator
+                       while (!ops.isEmpty() && precedence(ops.peek()) >= precedence(ch)) {
+                           out.append(ops.pop()).append(" ");
+                       }
+                       ops.push(ch);
+                   }
+               }
 
 
 
