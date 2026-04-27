@@ -43,6 +43,8 @@ public static int dequeue() {
     public static int size() {
         return s1.size() + s2.size();
     }
+    public static void main(String[] args) {
+
 
 
 
