@@ -8,7 +8,10 @@ public class InfixToPostfixConverter {
     public static Integer precedence(char op){
         Stack<Character> ops = new Stack<>();
         StringBuilder output = new StringBuilder();
-        for (int i = 0; i< output.charAt();i++){
+        for (int i = 0; i< output.charAt(i);i++){
+            if (op == '+' || op == '-') {
+                return 1;
+            }
 
         }
 
