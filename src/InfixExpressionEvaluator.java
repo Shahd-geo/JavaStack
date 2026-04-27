@@ -45,8 +45,9 @@ public class InfixExpressionEvaluator {
                 while (operator.peek() != '(') {
                     int b = operand.pop();
                     int a = operand.pop();
-
-
+                    operand.push(applyOp(a, b, operator.pop()));
+                }
+                re
                 }
 
                 }
