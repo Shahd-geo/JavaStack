@@ -10,7 +10,9 @@ public class MinStack {
         }
         System.out.println("PUSH:"+x);
     }
+    public static int pop() {
 
 
-}
+
+    }
 
