@@ -37,13 +37,15 @@ public static int dequeue() {
 
         return s2.peek();
     }
+    public static boolean isEmpty() {
 
 
 
 
 
 
-}
+
+    }
 
 
 }
