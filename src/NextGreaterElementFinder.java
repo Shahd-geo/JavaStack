@@ -19,6 +19,7 @@ public static int[] findNextGreaterElement(int [] arr){
         STACK.push(i);
 
         }
+    return result;
 
     }
     }
