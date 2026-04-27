@@ -53,6 +53,10 @@ public class MinStack {
         push(2);
         pop();
         pop();
+        push(1);
+        push(4);
+        pop();
+
 
 
     }
