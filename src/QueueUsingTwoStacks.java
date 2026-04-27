@@ -41,6 +41,8 @@ public static int dequeue() {
         return s1.isEmpty() && s2.isEmpty();
     }
     public static int size() {
+        return s1.size() + s2.size();
+    }
 
 
 
