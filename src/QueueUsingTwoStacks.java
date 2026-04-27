@@ -13,6 +13,11 @@ public static int dequeue() {
         System.out.println("Queue is empty");
         return -1;
     }
+    if (s2.isEmpty()) {
+        while (!s1.isEmpty()) {
+            s2.push(s1.pop());
+        }
+    }
 
 
 
