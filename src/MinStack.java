@@ -8,6 +8,7 @@ public class MinStack {
         if (minStack.isEmpty() || x <= minStack.peek()) {
             minStack.push(x);
         }
+        System.out.println("PUSH:"+x);
     }
 
 
