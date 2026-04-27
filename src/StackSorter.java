@@ -1,6 +1,10 @@
 import java.util.Stack;
 
 public class StackSorter {
+    static void main(String[] args) {
+
+    }
+}
     public static void sortStack(Stack<Integer> stack) {
         Stack<Integer> temp = new Stack<>();
         while (!stack.isEmpty()) {
@@ -14,14 +18,4 @@ public class StackSorter {
         while (!temp.isEmpty()) {
             stack.push(temp.pop());
         }
-    }
-
-    }
-
-        }
-
-
-
-        }
-
     }
