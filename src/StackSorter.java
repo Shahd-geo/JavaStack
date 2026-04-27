@@ -6,6 +6,9 @@ public class StackSorter {
         while (!stack.isEmpty()) {
             int current = stack.pop();
             while (!temp.isEmpty() && temp.peek() > current) {
+                stack.push(temp.pop());
+            }
+            }
 
         }
 
