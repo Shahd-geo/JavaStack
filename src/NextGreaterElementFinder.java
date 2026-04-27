@@ -23,6 +23,9 @@ public static int[] findNextGreaterElement(int [] arr){
 
     }
     public static void displayresult(int[] arr, int[] result){
+        System.out.println("Index\tValue\tNext Greater");
+
+
 
 
     }
