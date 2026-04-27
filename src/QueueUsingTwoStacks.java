@@ -23,6 +23,8 @@ public static int dequeue() {
     System.out.println("Dequeue: " + ret);
     return ret;
 }
+    public static int peek() {
+
 
 
 
