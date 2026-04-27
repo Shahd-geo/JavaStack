@@ -2,8 +2,10 @@ import java.util.Stack;
 
 public class StackSorter {
     static void main(String[] args) {
+        Stack<Integer> s = new Stack<>();
 
-    }
+
+
 }
     public static void sortStack(Stack<Integer> stack) {
         Stack<Integer> temp = new Stack<>();
