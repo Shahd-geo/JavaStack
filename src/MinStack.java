@@ -16,7 +16,28 @@ public class MinStack {
            return -1;
        }
 
+
+        int val = mainStack.pop();
+
+        if (val == minStack.peek()) {
+            minStack.pop();
         }
+
+        System.out.println("pop");
+        return val;
+    }
+
+    // peek
+    public static int peek() {
+        if (mainStack.isEmpty()) return -1;
+        return mainStack.peek();
+    }
+
+    // getMin
+    public static int getMin() {
+
+
+    }
 
 
 
