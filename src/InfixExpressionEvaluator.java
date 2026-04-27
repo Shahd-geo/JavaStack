@@ -2,6 +2,12 @@ import java.util.Stack;
 
 public class InfixExpressionEvaluator {
     static void main(String[] args) {
+        String expr = "3+4*2";
+
+
+
+
+
 
     }
 
