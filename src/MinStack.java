@@ -14,7 +14,6 @@ public class MinStack {
        if (mainStack.isEmpty()) {
            System.out.println("Stack is empty");
            return -1;
-
        }
 
         }
