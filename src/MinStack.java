@@ -35,9 +35,29 @@ public class MinStack {
 
     // getMin
     public static int getMin() {
+        if (minStack.isEmpty()) {
+            System.out.println("Stack is empty");
+            return -1;
+        }
+
+        return minStack.peek();
+    }
+
+    static void main(String[] args) {
+        push(5);
+
+        push(3);
+
+        push(7);
+
+        push(2);
 
 
     }
+
+
+
+}
 
 
 
