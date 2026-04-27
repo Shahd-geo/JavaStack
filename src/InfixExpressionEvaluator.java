@@ -30,6 +30,9 @@ public class InfixExpressionEvaluator {
          Stack<Double>  operand = new Stack<>();
          Stack<Character>  operator = new Stack<>();
         for (int i = 0; i < expr.length(); i++) {
+            char ch = expr.charAt(i);
+
+        }
 
 
 
