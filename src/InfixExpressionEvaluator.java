@@ -14,6 +14,11 @@ public class InfixExpressionEvaluator {
 
     }
     public static int applyOp(int a, int b, char op) {
+        if (op == '+') {
+            return a + b;
+        }
+
+    }
 
 
 
