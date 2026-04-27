@@ -6,9 +6,7 @@ public class InfixToPostfixConverter {
         String postfix = infixToPostfix(infix);
         System.out.println("Postfix: " + postfix);
         int result = evaluatePostfix(postfix);
-
-
-
+        System.out.println("Result: " + result);
 
 
     }
