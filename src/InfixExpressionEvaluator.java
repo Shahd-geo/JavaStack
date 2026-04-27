@@ -38,6 +38,9 @@ public class InfixExpressionEvaluator {
                 int num = ch - '0';
                 operand.push(num);
             }else if (ch == '(') {
+                operator.push(ch);
+
+            }
 
 
 
