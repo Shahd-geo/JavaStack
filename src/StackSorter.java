@@ -4,6 +4,9 @@ public class StackSorter {
     public static void sortStack(Stack<Integer> stack) {
         Stack<Integer> temp = new Stack<>();
         while (!stack.isEmpty()) {
+            int current = stack.pop();
+
+        }
 
 
 
