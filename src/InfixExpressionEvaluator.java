@@ -43,6 +43,11 @@ public class InfixExpressionEvaluator {
             }
             else if (ch == ')') {
                 while (operator.peek() != '(') {
+                    int b = operand.pop();
+                    int a = operand.pop();
+
+
+                }
 
                 }
 
