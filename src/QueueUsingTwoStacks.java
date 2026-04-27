@@ -49,11 +49,10 @@ public static int dequeue() {
         Enqueue(3);
         Enqueue(4);
         dequeue();
-        enqueue(4);
         System.out.println("Peek: " + peek());
-       // dequeue();
-       // dequeue();
-      //  dequeue();
+       dequeue();
+        dequeue();
+       dequeue();
        // dequeue(); // empty case
     }
 }
