@@ -22,5 +22,8 @@ public static int[] findNextGreaterElement(int [] arr){
     return result;
 
     }
+    public static void displayresult(int[] arr, int[] result){
+
+
     }
 }
