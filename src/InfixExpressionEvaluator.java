@@ -4,6 +4,8 @@ public class InfixExpressionEvaluator {
     static void main(String[] args) {
         String expr = "3+4*2";
         int result = evaluate(expr);
+        System.out.println("Result: " + result);
+
 
 
 
