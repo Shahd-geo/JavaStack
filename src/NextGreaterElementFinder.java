@@ -11,5 +11,8 @@ public static int[] findNextGreaterElement(int [] arr){
         int[] result=new int[n];
     Arrays.fill(result,-1);
     Stack<Integer> STACK=new Stack<>();
+    for (int i = 0 ; i<n;i++){
+
+    }
     }
 }
