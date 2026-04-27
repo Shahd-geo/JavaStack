@@ -31,6 +31,10 @@ public class InfixExpressionEvaluator {
          Stack<Character>  operator = new Stack<>();
         for (int i = 0; i < expr.length(); i++) {
             char ch = expr.charAt(i);
+            if (ch == ' ') {
+                continue;
+            }
+
 
         }
 
