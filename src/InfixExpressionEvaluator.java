@@ -1,6 +1,12 @@
 import java.util.Stack;
 
 public class InfixExpressionEvaluator {
+    static void main(String[] args) {
+
+    }
+
+
+}
     public static int precedence(char op) {
         if (op == '+' || op == '-'){
             return 1;
