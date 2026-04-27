@@ -29,6 +29,7 @@ public class InfixExpressionEvaluator {
     public static int evaluate(String expr) {
          Stack<Double>  operand = new Stack<>();
          Stack<Character>  operator = new Stack<>();
+        for (int i = 0; i < expr.length(); i++) {
 
 
 
@@ -36,7 +37,8 @@ public class InfixExpressionEvaluator {
 
 
 
-    }
+
+        }
 
 
 
