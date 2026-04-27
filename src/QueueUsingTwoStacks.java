@@ -44,6 +44,21 @@ public static int dequeue() {
         return s1.size() + s2.size();
     }
     public static void main(String[] args) {
+        Enqueue(1);
+        Enqueue(2);
+        Enqueue(3);
+        Enqueue(4);
+        dequeue();
+        enqueue(4);
+        System.out.println("Peek: " + peek());
+       // dequeue();
+       // dequeue();
+      //  dequeue();
+       // dequeue(); // empty case
+    }
+}
+
+
 
 
 
