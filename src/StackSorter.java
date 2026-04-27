@@ -8,7 +8,11 @@ public class StackSorter {
             while (!temp.isEmpty() && temp.peek() > current) {
                 stack.push(temp.pop());
             }
-            }
+
+            temp.push(current);
+        }
+
+    }
 
         }
 
