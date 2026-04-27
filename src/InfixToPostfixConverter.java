@@ -21,6 +21,9 @@ public class InfixToPostfixConverter {
            Stack<Character> ops = new Stack<>();
            StringBuilder out = new StringBuilder();
            for (char ch : expr.toCharArray()){
+               if (Character.isDigit(ch)) {
+                   out.append(ch).append(" ");
+               }
 
 
 
