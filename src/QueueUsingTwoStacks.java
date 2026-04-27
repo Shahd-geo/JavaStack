@@ -19,6 +19,11 @@ public static int dequeue() {
         }
     }
 
+    int ret = s2.pop();
+    System.out.println("Dequeue: " + ret);
+    return ret;
+}
+
 
 
 
