@@ -11,7 +11,9 @@ public class InfixToPostfixConverter {
         for (int i = 0; i< output.charAt(i);i++){
             if (op == '+' || op == '-') {
                 return 1;
-            }
+
+            } if (op == '*' || op == '/' || op == '%')
+                return 2;
 
         }
 
