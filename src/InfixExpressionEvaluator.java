@@ -42,6 +42,9 @@ public class InfixExpressionEvaluator {
 
             }
             else if (ch == ')') {
+                while (operator.peek() != '(') {
+
+                }
 
 
 
