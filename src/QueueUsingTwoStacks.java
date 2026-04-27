@@ -9,6 +9,11 @@ public static int Enqueue(int x) {
     System.out.println("Enqueue: " + x);
 }
 public static int dequeue() {
+    if (s1.isEmpty() && s2.isEmpty()) {
+        System.out.println("Queue is empty");
+        return -1;
+    }
+
 
 
 
