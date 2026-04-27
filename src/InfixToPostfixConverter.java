@@ -18,8 +18,10 @@ public class InfixToPostfixConverter {
         return 0;
     }
        public static String infixToPostfix(String expr) {
+           Stack<Character> ops = new Stack<>();
 
-        }
+
+       }
 
 
         }
