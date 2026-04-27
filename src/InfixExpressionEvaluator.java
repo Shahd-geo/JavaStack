@@ -37,9 +37,8 @@ public class InfixExpressionEvaluator {
             if (Character.isDigit(ch)) {
                 int num = ch - '0';
                 operand.push(num);
+            }else if (ch == '(') {
 
-
-            }
 
 
 
