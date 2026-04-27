@@ -9,6 +9,7 @@ public class InfixExpressionEvaluator {
         }if (op == '*' || op == '/') {
             return 2;
         }
+        return 0;
 
 
     }
