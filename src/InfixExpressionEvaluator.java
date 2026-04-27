@@ -27,7 +27,7 @@ public class InfixExpressionEvaluator {
         return 0;
     }
     public static int evaluate(String expr) {
-         Stack<Double>  operand = new Stack<>();
+         Stack<Integer>  operand = new Stack<>();
          Stack<Character>  operator = new Stack<>();
         for (int i = 0; i < expr.length(); i++) {
             char ch = expr.charAt(i);
@@ -35,6 +35,11 @@ public class InfixExpressionEvaluator {
                 continue;
             }
             if (Character.isDigit(ch)) {
+                int num = ch - '0';
+                operand.push(num);
+
+
+            }
 
 
 
