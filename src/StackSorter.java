@@ -1,13 +1,13 @@
 import java.util.Stack;
 
 public class StackSorter {
-    static void main(String[] args) {
-        Stack<Integer> s = new Stack<>();
+    static void main(Strin= new Stack<>();
         s.push(3);
         s.push(1);
         s.push(4);
-        s.push(2);
-        System.out.println("orginal stack:" + s);
+        s.push(2);g[] args) {
+            Stack<Integer> s
+            System.out.println("orginal stack:" + s);
         System.out.println(sortStack(s));
 
 
