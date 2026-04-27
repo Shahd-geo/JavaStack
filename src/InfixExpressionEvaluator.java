@@ -41,6 +41,9 @@ public class InfixExpressionEvaluator {
                 operator.push(ch);
 
             }
+            else if (ch == ')') {
+
+
 
 
 
