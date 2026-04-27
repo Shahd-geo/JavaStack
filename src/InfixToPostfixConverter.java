@@ -5,4 +5,7 @@ public class InfixToPostfixConverter {
         Stack<Character> ops = new Stack<>();
 
     }
+    public static Integer precedence(char op){
+
+    }
 }
