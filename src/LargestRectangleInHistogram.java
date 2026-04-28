@@ -38,6 +38,8 @@ public class LargestRectangleInHistogram {
         return (end - start + 1) * height;
     }
     public static void displayHistogram(int[] heights) {
+        System.out.println("Histogram:");
+
 
 
     }
