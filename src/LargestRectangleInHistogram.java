@@ -10,6 +10,8 @@ public class LargestRectangleInHistogram {
             return 0;
         }
         Stack<Integer> stack = new Stack<>();
+        int maxArea = 0;
+
 
 
     }
