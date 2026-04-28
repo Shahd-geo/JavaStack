@@ -37,8 +37,10 @@ public class LargestRectangleInHistogram {
     public static int calculateArea(int[] heights, int start, int end, int height) {
         return (end - start + 1) * height;
     }
+    public static void displayHistogram(int[] heights) {
 
-}
+
+    }
 
         }
 
