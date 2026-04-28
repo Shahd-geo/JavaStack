@@ -1,0 +1,2 @@
+public class tachstoretask17 {
+}
