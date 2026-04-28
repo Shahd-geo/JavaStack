@@ -9,5 +9,7 @@ public class LargestRectangleInHistogram {
         if (heights.length == 0) {
             return 0;
         }
+        Stack<Integer> stack = new Stack<>();
+
 
     }
