@@ -7,6 +7,11 @@ public class StackSorter {
         s.push(1);
         s.push(4);
         System.out.println("Before :");
+        displayStack( s);
+        sortStack(s);
+        System.out.println("After :");
+        displayStack(stack1);
+        System.out.println()
 
 
         Stack<Integer
