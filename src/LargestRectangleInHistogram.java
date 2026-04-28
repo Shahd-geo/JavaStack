@@ -53,6 +53,8 @@ public class LargestRectangleInHistogram {
         for (int h : heights) System.out.print("--");
         System.out.println();
     }
+    public static void displayResult(int[] heights, int maxArea) {
+
 
 
 
